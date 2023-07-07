@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+pre {
+  height: 88%;
+  /* padding-bottom: 20px; */
+  box-sizing: border-box;
+}
+.insert-code {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background: #272822;
+}
+.add-code-tab {
+  height: 10%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 15px;
+  box-sizing: border-box;
+  background: #d7e5d7;
+}
+.lower-contaier {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.css-code pre {
+  display: flex;
+}
+.css-code {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  border-right: 1px solid grey;
+  background: #272822;
+}
+.css-code-tab {
+  height: 10%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  background: #d7e5d7;
+}
+.html-code {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  background: #272822;
+}
+.html-code-tab {
+  height: 10%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 15px;
+  box-sizing: border-box;
+  background: #d7e5d7;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+h2 {
+  margin: 0;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.button:hover {
+  background-color: #00bfff;
+}
